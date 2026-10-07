@@ -3,7 +3,7 @@ window.PAK_PRODUCTS = [
   {
     id: "pw-sk-01",
     sku: "PW-SK-101",
-    name: "Royal Emerald Wash & Wear Shalwar Kameez Suit",
+    name: "Royal Emerald Shalwar Kameez Suit",
     category: "eastern",
     categoryLabel: "Eastern Wear",
     badge: "Best Seller",
@@ -14,7 +14,7 @@ window.PAK_PRODUCTS = [
     moq: 3,
     unitLabel: "suit",
     unitLabelPlural: "suits",
-    fabric: "Premium Wrinkle-Free Giza Wash & Wear (240 GSM)",
+    fabric: "240 GSM Wrinkle-Free Wash & Wear",
     sizes: ["S", "M", "L", "XL", "Assorted Set (S-XL)"],
     defaultSize: "Assorted Set (S-XL)",
     colors: [
@@ -27,17 +27,17 @@ window.PAK_PRODUCTS = [
     tiers: [
       { minQty: 3, price: 2450, label: "3–9 Suits" },
       { minQty: 10, price: 2250, label: "10–24 Suits" },
-      { minQty: 25, price: 2050, label: "25+ Carton Rate" }
+      { minQty: 25, price: 2050, label: "25+ Bulk" }
     ],
-    description: "Tailored stitched men's Shalwar Kameez crafted from export-grade wrinkle-resistant Wash & Wear fabric. Features reinforced band collar, antique brass-finish buttons, deep side pockets, and double-stitched seams built for retail durability."
+    description: "Tailored Wash & Wear suit with band collar and brass buttons."
   },
   {
     id: "pw-kp-02",
     sku: "PW-KP-102",
-    name: "Classic White Festive Embroidered Kurta Pajama",
+    name: "Classic White Embroidered Kurta Pajama",
     category: "eastern",
     categoryLabel: "Eastern Wear",
-    badge: "Festive Top Pick",
+    badge: "Festive Pick",
     badgeType: "brass",
     image: "images/kurta-white-gold.jpg",
     price: 2680,
@@ -45,7 +45,7 @@ window.PAK_PRODUCTS = [
     moq: 3,
     unitLabel: "set",
     unitLabelPlural: "sets",
-    fabric: "100% Combed Egyptian Cotton with Tonal Resham Embroidery",
+    fabric: "100% Egyptian Cotton • Tonal Embroidery",
     sizes: ["S", "M", "L", "XL", "Assorted Set (S-XL)"],
     defaultSize: "Assorted Set (S-XL)",
     colors: [
@@ -57,17 +57,17 @@ window.PAK_PRODUCTS = [
     tiers: [
       { minQty: 3, price: 2680, label: "3–9 Sets" },
       { minQty: 10, price: 2490, label: "10–24 Sets" },
-      { minQty: 25, price: 2290, label: "25+ Carton Rate" }
+      { minQty: 25, price: 2290, label: "25+ Bulk" }
     ],
-    description: "Signature crisp white 2-piece Kurta Pajama set featuring geometric tonal embroidery along the mandarin collar and placket. Paired with a tailored Aligarh trouser pajama. High-margin wholesale bestseller for Jummah, Eid, and wedding seasons."
+    description: "Crisp white 2-piece Kurta Pajama with fine geometric collar embroidery."
   },
   {
     id: "pw-wc-03",
     sku: "PW-WC-103",
-    name: "Nawab Textured Karandi Nehru Waistcoat",
+    name: "Nawab Textured Karandi Waistcoat",
     category: "waistcoats",
-    categoryLabel: "Waistcoats & Formal",
-    badge: "High Margin",
+    categoryLabel: "Waistcoats",
+    badge: "Top Margin",
     badgeType: "emerald",
     image: "images/waistcoat-charcoal-green.jpg",
     price: 2850,
@@ -75,7 +75,7 @@ window.PAK_PRODUCTS = [
     moq: 2,
     unitLabel: "piece",
     unitLabelPlural: "pieces",
-    fabric: "Yarn-Dyed Textured Suiting Karandi with Satin Inner Lining",
+    fabric: "Yarn-Dyed Karandi • Satin Lining",
     sizes: ["38 (S)", "40 (M)", "42 (L)", "44 (XL)", "Assorted 4-Pc Pack"],
     defaultSize: "Assorted 4-Pc Pack",
     colors: [
@@ -85,27 +85,27 @@ window.PAK_PRODUCTS = [
     ],
     defaultColor: "Forest Green",
     tiers: [
-      { minQty: 2, price: 2850, label: "2–7 Pieces" },
-      { minQty: 8, price: 2600, label: "8–19 Pieces" },
-      { minQty: 20, price: 2380, label: "20+ Master Pack" }
+      { minQty: 2, price: 2850, label: "2–7 Pcs" },
+      { minQty: 8, price: 2600, label: "8–19 Pcs" },
+      { minQty: 20, price: 2380, label: "20+ Bulk" }
     ],
-    description: "Structured sleeveless Nehru waistcoat in rich forest green textured weave with antique metallic buttons, welted chest pocket with complimentary printed pocket square, and breathable viscose inner lining."
+    description: "Structured forest green Nehru waistcoat with metallic buttons and pocket square."
   },
   {
     id: "pw-uf-04",
     sku: "PW-UF-104",
-    name: "4.5m Pure Egyptian Cotton Unstitched Suit Fabric",
+    name: "4.5m Egyptian Cotton Unstitched Suit",
     category: "unstitched",
-    categoryLabel: "Unstitched Fabrics",
-    badge: "Factory Direct",
+    categoryLabel: "Unstitched",
+    badge: "Mill Direct",
     badgeType: "emerald",
     image: "images/unstitched-cotton.jpg",
     price: 1850,
     retailPrice: 3400,
     moq: 4,
-    unitLabel: "suit cut",
-    unitLabelPlural: "suit cuts",
-    fabric: "100% Long-Staple Mercerized Egyptian Cotton (4.5 Meter Cut, 58\" Width)",
+    unitLabel: "cut",
+    unitLabelPlural: "cuts",
+    fabric: "Mercerized Egyptian Cotton • 4.5m Cut",
     sizes: ["4.5m Single Suit Cut", "22.5m (5-Suit Thaan)", "45m (10-Suit Thaan)"],
     defaultSize: "4.5m Single Suit Cut",
     colors: [
@@ -118,17 +118,17 @@ window.PAK_PRODUCTS = [
     tiers: [
       { minQty: 4, price: 1850, label: "4–11 Cuts" },
       { minQty: 12, price: 1680, label: "12–29 Cuts" },
-      { minQty: 30, price: 1520, label: "30+ Mill Rate" }
+      { minQty: 30, price: 1520, label: "30+ Bulk" }
     ],
-    description: "Faisalabad mill-direct unstitched 4.5-meter men's suiting fabric with woven golden selvedge edge. Mercerized for a cool, crisp hand-feel and zero shrinkage. Available in individual 4.5m cuts or full wholesale thaans."
+    description: "Unstitched 4.5m luxury cotton suiting with golden woven selvedge."
   },
   {
     id: "pw-pl-05",
     sku: "PW-PL-105",
-    name: "Heritage Pique Polo Shirt — Emerald & White Tipping",
+    name: "Heritage Pique Polo — Emerald & White",
     category: "casual",
-    categoryLabel: "Western Casual",
-    badge: "Export Surplus",
+    categoryLabel: "Casualwear",
+    badge: "Export Grade",
     badgeType: "emerald",
     image: "images/polo-green-white.jpg",
     price: 1150,
@@ -136,7 +136,7 @@ window.PAK_PRODUCTS = [
     moq: 6,
     unitLabel: "shirt",
     unitLabelPlural: "shirts",
-    fabric: "240 GSM Honeycomb Combed Cotton Pique (Pre-Shrunk)",
+    fabric: "240 GSM Honeycomb Cotton Pique",
     sizes: ["M", "L", "XL", "XXL", "6-Pc Ratio Pack (M-XXL)"],
     defaultSize: "6-Pc Ratio Pack (M-XXL)",
     colors: [
@@ -146,27 +146,27 @@ window.PAK_PRODUCTS = [
     ],
     defaultColor: "Emerald / White Trim",
     tiers: [
-      { minQty: 6, price: 1150, label: "6–17 Shirts" },
-      { minQty: 18, price: 1020, label: "18–47 Shirts" },
-      { minQty: 48, price: 890, label: "48+ Carton Rate" }
+      { minQty: 6, price: 1150, label: "6–17 Pcs" },
+      { minQty: 18, price: 1020, label: "18–47 Pcs" },
+      { minQty: 48, price: 890, label: "48+ Bulk" }
     ],
-    description: "Export-grade 240 GSM pique cotton polo shirt in signature Pakistani emerald green with dual white collar and cuff tipping, pearlized two-button placket, and chest crest embroidery."
+    description: "Breathable 240 GSM pique polo in emerald green with crisp white tipping."
   },
   {
     id: "pw-ub-06",
     sku: "PW-UB-106",
-    name: "Luxury Spun Boski & Latha Unstitched Wholesale Roll",
+    name: "Luxury Spun Boski & Latha Roll",
     category: "unstitched",
-    categoryLabel: "Unstitched Fabrics",
-    badge: "Premium Textile",
+    categoryLabel: "Unstitched",
+    badge: "Luxury Fall",
     badgeType: "brass",
     image: "images/unstitched-boski.jpg",
     price: 2350,
     retailPrice: 4500,
     moq: 4,
-    unitLabel: "suit cut",
-    unitLabelPlural: "suit cuts",
-    fabric: "Heavy Fall Spun Silk-Touch Boski & Superfine Latha (4.5m Cut)",
+    unitLabel: "cut",
+    unitLabelPlural: "cuts",
+    fabric: "Silk-Touch Spun Boski • 4.5m Cut",
     sizes: ["4.5m Suit Cut (With Tag)", "22.5m 5-Suit Roll", "45m Full Thaan"],
     defaultSize: "4.5m Suit Cut (With Tag)",
     colors: [
@@ -178,17 +178,17 @@ window.PAK_PRODUCTS = [
     tiers: [
       { minQty: 4, price: 2350, label: "4–9 Cuts" },
       { minQty: 10, price: 2150, label: "10–24 Cuts" },
-      { minQty: 25, price: 1950, label: "25+ Mill Rate" }
+      { minQty: 25, price: 1950, label: "25+ Bulk" }
     ],
-    description: "Soft-drape luxury spun Boski and superfine Latha unstitched fabric rolls in authentic warm ivory and pearl white. Packaged with retail-ready kraft hangtags for immediate boutique display."
+    description: "Soft-drape spun Boski and Latha fabric rolls in warm ivory and pearl white."
   },
   {
     id: "pw-ox-07",
     sku: "PW-OX-107",
-    name: "Tailored Sage & White Striped Oxford Dress Shirt",
+    name: "Tailored Sage Striped Oxford Shirt",
     category: "casual",
-    categoryLabel: "Western Casual",
-    badge: "Office Essential",
+    categoryLabel: "Casualwear",
+    badge: "Smart Casual",
     badgeType: "emerald",
     image: "images/oxford-shirt.jpg",
     price: 1450,
@@ -196,7 +196,7 @@ window.PAK_PRODUCTS = [
     moq: 4,
     unitLabel: "shirt",
     unitLabelPlural: "shirts",
-    fabric: "100% Yarn-Dyed Pinpoint Oxford Cotton (Easy-Iron Finish)",
+    fabric: "100% Pinpoint Oxford Cotton",
     sizes: ["S (15)", "M (15.5)", "L (16)", "XL (16.5)", "Assorted 4-Pc Pack"],
     defaultSize: "Assorted 4-Pc Pack",
     colors: [
@@ -206,19 +206,19 @@ window.PAK_PRODUCTS = [
     ],
     defaultColor: "Sage & White Stripe",
     tiers: [
-      { minQty: 4, price: 1450, label: "4–11 Shirts" },
-      { minQty: 12, price: 1320, label: "12–29 Shirts" },
-      { minQty: 30, price: 1180, label: "30+ Carton Rate" }
+      { minQty: 4, price: 1450, label: "4–11 Pcs" },
+      { minQty: 12, price: 1320, label: "12–29 Pcs" },
+      { minQty: 30, price: 1180, label: "30+ Bulk" }
     ],
-    description: "Button-down collar men's Oxford dress shirt featuring yarn-dyed sage green and white vertical stripes, single chest pocket, reinforced gusset hems, and mother-of-pearl style buttons."
+    description: "Button-down Oxford cotton shirt with yarn-dyed sage and white stripes."
   },
   {
     id: "pw-dj-08",
     sku: "PW-DJ-108",
-    name: "Selvedge Stretch Denim Jeans — Wholesale Ratio Pack",
+    name: "Selvedge Stretch Denim Jeans",
     category: "casual",
-    categoryLabel: "Western Casual",
-    badge: "Export Quality",
+    categoryLabel: "Casualwear",
+    badge: "Export Denim",
     badgeType: "brass",
     image: "images/denim-jeans.jpg",
     price: 1750,
@@ -226,7 +226,7 @@ window.PAK_PRODUCTS = [
     moq: 6,
     unitLabel: "pair",
     unitLabelPlural: "pairs",
-    fabric: "12.5 oz Comfort-Stretch Selvedge Denim (98% Cotton, 2% Elastane)",
+    fabric: "12.5 oz Comfort-Stretch Selvedge",
     sizes: ["30", "32", "34", "36", "38", "6-Pc Waist Ratio (30-38)"],
     defaultSize: "6-Pc Waist Ratio (30-38)",
     colors: [
@@ -238,17 +238,17 @@ window.PAK_PRODUCTS = [
     tiers: [
       { minQty: 6, price: 1750, label: "6–17 Pairs" },
       { minQty: 18, price: 1590, label: "18–35 Pairs" },
-      { minQty: 36, price: 1440, label: "36+ Bale Rate" }
+      { minQty: 36, price: 1440, label: "36+ Bulk" }
     ],
-    description: "Export-standard straight-slim men's denim jeans with red-and-white selvedge outseam ID, solid brass YKK zip fly, copper rivets, and enzyme stone-wash durability."
+    description: "Straight-slim stretch selvedge denim jeans with brass hardware."
   },
   {
     id: "pw-kb-09",
     sku: "PW-KB-109",
-    name: "Executive Charcoal & Olive Trim Blended Kurta Set",
+    name: "Executive Charcoal & Olive Kurta Set",
     category: "eastern",
     categoryLabel: "Eastern Wear",
-    badge: "Winter / All-Season",
+    badge: "All-Season",
     badgeType: "emerald",
     image: "images/kurta-black.jpg",
     price: 2550,
@@ -256,7 +256,7 @@ window.PAK_PRODUCTS = [
     moq: 3,
     unitLabel: "suit",
     unitLabelPlural: "suits",
-    fabric: "Tropical Poly-Viscose Blended Suiting with Olive Contrast Piping",
+    fabric: "Tropical Suiting • Olive Piping",
     sizes: ["S", "M", "L", "XL", "Assorted Set (S-XL)"],
     defaultSize: "Assorted Set (S-XL)",
     colors: [
@@ -268,17 +268,17 @@ window.PAK_PRODUCTS = [
     tiers: [
       { minQty: 3, price: 2550, label: "3–9 Suits" },
       { minQty: 10, price: 2350, label: "10–24 Suits" },
-      { minQty: 25, price: 2150, label: "25+ Carton Rate" }
+      { minQty: 25, price: 2150, label: "25+ Bulk" }
     ],
-    description: "Distinguished dark charcoal 2-piece kurta shalwar featuring subtle olive-green woven border trim along the band collar, placket, cuffs, and trouser hem."
+    description: "Dark charcoal 2-piece kurta shalwar with subtle olive border detailing."
   },
   {
     id: "pw-kc-10",
     sku: "PW-KC-110",
-    name: "Peshawari Chikan Threadwork White Cotton Kurta",
+    name: "Peshawari Chikan White Cotton Kurta",
     category: "eastern",
     categoryLabel: "Eastern Wear",
-    badge: "Artisan Craft",
+    badge: "Artisan",
     badgeType: "emerald",
     image: "images/kurta-embroidered-closeup.jpg",
     price: 2100,
@@ -286,7 +286,7 @@ window.PAK_PRODUCTS = [
     moq: 4,
     unitLabel: "kurta",
     unitLabelPlural: "kurtas",
-    fabric: "Fine Lawn-Cotton Weave with High-Density Geometric Placket Embroidery",
+    fabric: "Fine Cotton • Placket Threadwork",
     sizes: ["S", "M", "L", "XL", "4-Pc Size Set (S-XL)"],
     defaultSize: "4-Pc Size Set (S-XL)",
     colors: [
@@ -296,27 +296,27 @@ window.PAK_PRODUCTS = [
     ],
     defaultColor: "Pure White / Silver Stitch",
     tiers: [
-      { minQty: 4, price: 2100, label: "4–11 Kurtas" },
-      { minQty: 12, price: 1920, label: "12–29 Kurtas" },
-      { minQty: 30, price: 1750, label: "30+ Master Pack" }
+      { minQty: 4, price: 2100, label: "4–11 Pcs" },
+      { minQty: 12, price: 1920, label: "12–29 Pcs" },
+      { minQty: 30, price: 1750, label: "30+ Bulk" }
     ],
-    description: "Intricately embroidered standalone men's white cotton kurta featuring traditional geometric chevron and diamond threadwork along the sherwani collar and front placket."
+    description: "Embroidered standalone white cotton kurta with geometric placket craft."
   },
   {
     id: "pw-kr-11",
     sku: "PW-KR-111",
-    name: "Retailer Starter Bundle — 12-Suit Emerald & White Rack Pack",
+    name: "12-Suit Emerald & White Shop Bundle",
     category: "eastern",
     categoryLabel: "Eastern Wear",
-    badge: "Shop Starter Pack",
+    badge: "Bundle Deal",
     badgeType: "brass",
     image: "images/kurta-rack-emerald.jpg",
     price: 23900,
     retailPrice: 45000,
     moq: 1,
-    unitLabel: "bundle (12 suits)",
-    unitLabelPlural: "bundles (12 suits each)",
-    fabric: "Assorted Combed Cotton & Wash-and-Wear (6 Emerald + 6 White Suits)",
+    unitLabel: "bundle",
+    unitLabelPlural: "bundles",
+    fabric: "6 Emerald + 6 White Stitched Suits",
     sizes: ["12-Suit Assorted Bundle (3S, 4M, 3L, 2XL)"],
     defaultSize: "12-Suit Assorted Bundle (3S, 4M, 3L, 2XL)",
     colors: [
@@ -324,27 +324,27 @@ window.PAK_PRODUCTS = [
     ],
     defaultColor: "Emerald & White Assorted",
     tiers: [
-      { minQty: 1, price: 23900, label: "1–2 Bundles (Rs. 1,991/suit)" },
-      { minQty: 3, price: 22200, label: "3–5 Bundles (Rs. 1,850/suit)" },
-      { minQty: 6, price: 20800, label: "6+ Bundles (Rs. 1,733/suit)" }
+      { minQty: 1, price: 23900, label: "1–2 Lots" },
+      { minQty: 3, price: 22200, label: "3–5 Lots" },
+      { minQty: 6, price: 20800, label: "6+ Lots" }
     ],
-    description: "Ready-to-display boutique wholesale lot containing 12 stitched men's Shalwar Kameez suits (6 signature Emerald Green + 6 Crisp White) pre-sorted across S, M, L, and XL sizes."
+    description: "Ready-to-display boutique pack of 12 stitched suits across S–XL."
   },
   {
     id: "pw-md-12",
     sku: "PW-MD-112",
-    name: "Groom & Barat 3-Piece Emerald Waistcoat + White Suit Combo",
+    name: "3-Pc Emerald Waistcoat + White Suit Set",
     category: "waistcoats",
-    categoryLabel: "Waistcoats & Formal",
-    badge: "Complete 3-Pc Set",
+    categoryLabel: "Waistcoats",
+    badge: "3-Pc Set",
     badgeType: "emerald",
     image: "images/mannequin-duo-festive.jpg",
     price: 4950,
     retailPrice: 8900,
     moq: 2,
-    unitLabel: "3-pc combo",
-    unitLabelPlural: "3-pc combos",
-    fabric: "Karandi Emerald Waistcoat + Egyptian Cotton White Shalwar Kameez",
+    unitLabel: "combo",
+    unitLabelPlural: "combos",
+    fabric: "Karandi Waistcoat + Cotton Suit",
     sizes: ["S", "M", "L", "XL", "4-Set Size Ratio (S-XL)"],
     defaultSize: "4-Set Size Ratio (S-XL)",
     colors: [
@@ -353,10 +353,10 @@ window.PAK_PRODUCTS = [
     ],
     defaultColor: "Emerald Waistcoat + White Suit",
     tiers: [
-      { minQty: 2, price: 4950, label: "2–5 Combos" },
-      { minQty: 6, price: 4600, label: "6–14 Combos" },
-      { minQty: 15, price: 4250, label: "15+ Wholesale Rate" }
+      { minQty: 2, price: 4950, label: "2–5 Sets" },
+      { minQty: 6, price: 4600, label: "6–14 Sets" },
+      { minQty: 15, price: 4250, label: "15+ Bulk" }
     ],
-    description: "Complete 3-piece festive menswear combination pairing our tailored Emerald Green waistcoat with a crisp white stitched Shalwar Kameez suit and matching pocket square."
+    description: "Complete 3-piece festive set pairing our emerald waistcoat with a white suit."
   }
 ];

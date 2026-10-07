@@ -333,11 +333,11 @@
     if (!container) return;
 
     const categories = [
-      { id: "all", label: "All Wholesale Items" },
-      { id: "eastern", label: "Shalwar Kameez & Kurtas" },
-      { id: "waistcoats", label: "Waistcoats & 3-Pc Combos" },
-      { id: "unstitched", label: "Unstitched Fabrics (Cotton & Boski)" },
-      { id: "casual", label: "Western Casual (Polos, Shirts, Denim)" }
+      { id: "all", label: "All" },
+      { id: "eastern", label: "Eastern Wear" },
+      { id: "waistcoats", label: "Waistcoats" },
+      { id: "unstitched", label: "Unstitched" },
+      { id: "casual", label: "Casualwear" }
     ];
 
     container.innerHTML = categories
@@ -365,7 +365,7 @@
 
     const list = getFilteredProducts();
     if (countLabel) {
-      countLabel.textContent = `Showing ${list.length} of ${products.length} wholesale products`;
+      countLabel.textContent = `${list.length} Products`;
     }
 
     if (!list.length) {
@@ -635,10 +635,10 @@
               <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
             </svg>
           </div>
-          <h4 style="font-size: 1.05rem; color: var(--text-primary); margin-bottom: 6px;">Your Wholesale Cart is Empty</h4>
-          <p style="font-size: 0.85rem; margin-bottom: 18px;">Select any men's clothing product from our catalog, choose your quantity, and click <strong>"Add to Cart"</strong> to generate your instant WhatsApp wholesale order.</p>
+          <h4 style="font-size: 1.05rem; color: var(--text-primary); margin-bottom: 6px;">Your Cart is Empty</h4>
+          <p style="font-size: 0.85rem; margin-bottom: 18px;">Add products from the catalog to order via WhatsApp.</p>
           <button type="button" class="btn-primary-emerald" id="btnBrowseFromEmptyCart" style="padding: 10px 20px; font-size: 0.86rem;">
-            Browse Wholesale Catalog
+            Explore Collection
           </button>
         </div>
       `;
