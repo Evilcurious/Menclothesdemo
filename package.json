@@ -1,0 +1,10 @@
+{
+  "name": "pakwholesellers-mens-clothes",
+  "version": "1.0.0",
+  "description": "PakWholesellers — Wholesale Men's Clothing Storefront (Green & White Theme) with Add to Cart & WhatsApp Pre-Written Order Checkout",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
